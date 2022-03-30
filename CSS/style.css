@@ -1,0 +1,46 @@
+body{
+    margin-left: 50px;
+}
+.box{
+    height: 100px;
+    width: 100px;
+    position: relative;
+    transform: skewX(-20deg);
+    border-style: solid;
+}
+
+.box1{
+    background-color: red;
+    height: 28rem;
+    width: 20rem;
+    top: 100px;
+    left: 100px;
+    z-index: 0;
+}
+
+.box2{
+    background-color: orange;
+    height: 6rem;
+    width: 20rem;
+    bottom: 135px;
+    left: 75px;
+    z-index: 1;  
+}
+
+.box3{
+    background-color: yellow;
+    height: 6rem;
+    width: 4rem;
+    bottom: 305px;
+    left: 145px;
+    z-index: 2;  
+}
+
+.box4{
+    background-color: green;
+    height: 14.75rem;
+    width: 10rem;
+    bottom: 605px;
+    left: 60px;
+    z-index: 3;  
+}
